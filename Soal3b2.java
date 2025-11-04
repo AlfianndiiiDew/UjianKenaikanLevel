@@ -4,39 +4,16 @@
  */
 package com.mycompany.mavenproject1;
 
+import java.util.Scanner;
+
 /**
  *
  * @author alfiandi
  */
-import java.util.Scanner;
-
-public class Soal3 {
-
+public class Soal3b2 {
     public static void main(String[] args) {
-//          Soal 3.1
-
-        Scanner sc = new Scanner(System.in);
-        
-        System.out.println("\n\n\n\nJawaban Soal 3.1 \n");
-
-
-        System.out.println("Masukkan Jumlah Siswa : ");
-        int n = sc.nextInt();
-
-        if (n <= 0) {
-            System.out.println("Tidak ada daftar siswa");
-            return;
-        }
-
-        double total = 0;
-        for (int i = 1; i <= n; i++) {
-            System.out.println("Masukkan Nilai siswa ke-" + i + ": ");
-            total += sc.nextDouble();
-        }
-
-        System.out.printf("\nTotal: %.2f | Rata-rata: %.2f%n", total, total / n);
-
-//        Soal 3.2
+        //        Soal 3.2
+        Scanner sc =new Scanner(System.in);
         System.out.println("\n\n\n\nJawaban Soal 3.2\n");
 
         System.out.print("Jumlah baris: ");

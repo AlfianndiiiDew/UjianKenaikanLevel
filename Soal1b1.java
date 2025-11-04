@@ -11,7 +11,7 @@ import java.util.Locale;
  *
  * @author alfiandi
  */
-public class Soal1 {
+public class Soal1b1 {
 
     public static void main(String[] args) {
         Locale indonesia = new Locale("id", "ID");
@@ -43,16 +43,5 @@ public class Soal1 {
 
         System.out.println(totalInRupiah);
 
-//        Soal 1 bagian b 
-        hitungGenapGanjil();
-    }
-
-    static String hitungGenapGanjil() {
-        Scanner input = new Scanner(System.in);
-        System.out.println("\n\n Program soal 1.2");
-        System.out.print("Masukkan sebuah bilangan: ");
-        int bilangan = input.nextInt();
-        System.out.println((bilangan % 2 == 0) ? "Ini adalah bilangan genap" : "Ini adalah bilangan ganjil");
-        return null;
     }
 }
