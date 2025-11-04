@@ -19,6 +19,7 @@ public class Soal1 {
         Scanner input = new Scanner(System.in);
 
 //        Soal 1 bagian a
+        System.out.println("\n\n Program soal 1.1");
         System.out.println("Masukkan berat paket (kg): ");
         double berat = input.nextDouble();
 
@@ -48,6 +49,7 @@ public class Soal1 {
 
     static String hitungGenapGanjil() {
         Scanner input = new Scanner(System.in);
+        System.out.println("\n\n Program soal 1.2");
         System.out.print("Masukkan sebuah bilangan: ");
         int bilangan = input.nextInt();
         System.out.println((bilangan % 2 == 0) ? "Ini adalah bilangan genap" : "Ini adalah bilangan ganjil");
